@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book now</title>
+<style>
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+header{
+width:100%;
+height:60px;
+background-color:#da4622 ;}
+#logo{
+float:left;
+padding:9px 0 9px 50px;}
+#logo h1{
+color:white;
+font-family:tahoma;
+}
+nav ul{
+list-style:none ;
+float:right;
+display:flex;
+height: 60px;
+align-items:center;
+justify-content:center;
+margin-right:45px;
+
+}
+
+nav ul li{
+padding:0  15px ;
+
+}
+
+nav ul li a{
+text-decoration: none;
+color:white;
+font-family: monospace;
+font-size:20px ;
+}
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+body{
+background-image: url("img1.jpg");
+background-attachment: fixed;
+background-size:100% 100%;
+
+}
+.reserve{
+width:400px;
+top:56%;
+left:50%;
+transform: translate(-50%,-50%);
+position:absolute;
+color:white;
+box-sizing: border-box;
+background-color:#da4622 ;
+
+
+}
+.reserve h1{
+font-size: 35px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin: 15px 0;
+}
+.reserve p{
+font-size: 20px;
+text-transform: capitalize;
+margin: 3px;
+margin-left: 10px;
+
+}
+.reserve input{
+font-size: 16px;
+width: 90%;
+padding: 10px 10px;
+border: 2px solide #ccc;
+outline: none;
+border-radius: 5px;
+margin: 10px;
+}
+.reserve button{
+font-size: 15px;
+font-weight: bold;
+color:black;
+padding: 10px 10px;
+margin:20px;
+margin-left: 111px;
+width:40%;
+border-radius: 5px;
+background-color:rgb(255, 238, 0);
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+
+}
+select{
+width: 90%;
+height:40px;
+font-size: 15px;
+padding: 10px 10px;
+color:white;
+margin-left: 10px;
+margin: 10px;
+color:gray;
+border-radius: 5px;
+background-color:white;
+
+}
+</style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+        <h1>FooDy</h1></div>
+        <nav>
+        <ul>
+        <li><a href="restaurant.html" target="_blank">Home</a></li>
+        <li><a href="galery.html" target="_blank">Dishes</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="forma.html">Order now</a></li>
+        </ul>
+        </nav>
+          </header>
+
+<div class="reserve">
+<h1>order online</h1>
+<form action="" method="">
+<p>your name</p>
+<input type="text" placeholder="enter your full name" name="fname" required>
+<p>your email</p>
+<input type="email" placeholder="enter your email"name="gmail" required>
+<p>your phone</p>
+<input type="tel"placeholder="enter your phone number"name="phone"required>
+<p id="lo">location</p>
+ <select name="locaal" id="place">
+    <option value="strret"> street</option>
+    <option value="strret">  west street</option>
+    <option value="charika"> el charika street</option>
+    <option value="east">east street</option>
+    <option value="dubai">dubai street</option>
+    <option value="kuds"> el kuds street</option>
+    </select>
+
+<button type="submit">order now</button>
+</form>
+</div>
+</body>
+</html>

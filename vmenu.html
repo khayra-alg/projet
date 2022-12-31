@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>menu</title>
+  <style>
+
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      width: 100%;
+      height: 60px;
+      background-color: #da4622;
+    }
+
+    #logo {
+      float: left;
+      padding: 9px 0 9px 50px;
+    }
+
+    #logo h1 {
+      color: white;
+      font-family: tahoma;
+    }
+
+    nav ul {
+      list-style: none;
+      float: right;
+      display: flex;
+      height: 60px;
+      align-items: center;
+      justify-content: center;
+      margin-right: 45px;
+
+    }
+
+    nav ul li {
+      padding: 0 15px;
+
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-family: monospace;
+      font-size: 20px;
+    }
+
+    .background {
+      width: 100%;
+      height: 400px;
+      background-image: url("bckground.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    section h1 {
+      font-size: 60px;
+      padding: 118px 552px;
+      color: #DAB600;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+
+
+    }
+
+    .dishes {
+
+      width: 100%;
+      margin-top: 90px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 5px;
+      background-color: gainsboro;
+      margin: 0 auto;
+
+    }
+
+    .B {
+      width: 250px;
+      border: 1px solid grey;
+      background-color: #90e0ef;
+      padding: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+
+    .B img {
+
+      width: 100%;
+      height: 250px;
+
+    }
+
+    .B img:hover {
+      transform: scale(1.04);
+    }
+
+    .B p {
+      padding: 5px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .B button {
+      padding: 5 px 40px;
+      padding: 8px;
+      border: none;
+      outline: none;
+      background-color: #da4622;
+      color: white;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 15px;
+      display: block;
+      margin: auto;
+      transition: 0.2s all;
+      text-transform: uppercase;
+      
+      
+    }
+    button a{
+      color:white;
+      text-decoration: none ;
+    }
+    
+    .footer {
+      background-color: #da4622;
+      text-align: center;
+      font-family: verdana;
+      font-size: 15px;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+    <div id="logo">
+      <h1>FooDy</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="restaurant.html">Home</a></li>
+        <li><a href="galery.html" target="_blank">Dishes</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="forma.html" target="_blank">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="background">
+    <h1>Menu</h1>
+  </section>
+
+  <section class="dishes">
+    <div class="B">
+      <img src="brgr.jpg" />
+      <p> cheese burger </p>
+      <p>450DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+
+    <div class="B">
+      <img src="brgr2.jpg" />
+      <p> burger</p>
+      <p>500DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+
+    <div class="B">
+      <img src="chikburgr.jpg" />
+      <p> chicken burger</p>
+      <p>400DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+
+    <div class="B">
+      <img src="pizza3.jpg" />
+      <p>pizza</p>
+      <p>300DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="piizamega.jpg" />
+      <p>pizza mega</p>
+      <p>850DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="pizzasimple.jpg" />
+      <p>simple pizza</p>
+      <p>250DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="Vegpizza.jpg" />
+      <p>veggie pizza</p>
+      <p>200DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="cha.jpg" />
+      <p>chawrma</p>
+      <p>250DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="sandwich.jpeg" />
+      <p>sandwich</p>
+      <p>200DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="canet.jpg" />
+        <p> canet</p>
+        <p>150DA</p>
+        <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="rammi.jpg" />
+      <p> rami juice</p>
+      <p>100 DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="so.jpg" />
+      <p>soft drinks</p>
+      <p>100 DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+
+    <div class="B">
+      <img src="hamoudd.jpg" />
+      <p>soft drinks</p>
+      <p>90 DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="im.jpg" />
+      <p> saida water</p>
+      <p>40 DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+    <div class="B">
+      <img src="ifri.jpg" />
+      <p>ifri water</p>
+      <p>40 DA</p>
+      <button><a href="forma.html">order</a></button>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>&copy;copyright khokha</p><br>
+  </footer>
+
+
+
+
+</body>
+
+</html>
